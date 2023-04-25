@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <header>
+                <h1>Example form</h1>
+                <div class="spanBlock">
+                    <span>All: <b id="overal">15</b></span>
+                    <span>Need: <b id="require">12</b></span>
+                    <span>Success: <b id="completed">5</b>/12</span>
+                    <span>Error: <b id="notCompleted">5</b>/12</span>
+                </div>
+            </header>
+
+            <main>
+                
+                <form name="questionary">
+                    <div class="inputBlock">
+                        <div class="inputColumnOne">
+                            <div class="inputArea">
+                                <span class="essential" class="aboveInp">Name</span>
+                                <input name="name" class="neccessary"  type="text">
+                                <span class="fill" class="bottom">Need to fill</span>
+                            </div>
+                            <div class="inputArea">
+                                <span class="aboveInp">Surname</span>
+                                <input type="text">
+                            </div>
+                            <div class="inputArea">
+                                <span class="essential" class="aboveInp">Email adress</span>
+                                <input name="email" class="neccessary"  type="text">
+                                <span class="fill" class="bottom">Need to fill</span>
+                            </div>
+                            <div class="inputArea">
+                                <span class="aboveInp">Phone number</span>
+                                <input type="text">
+                            </div>
+                            <div class="inputArea">
+                                <span class="aboveInp">Your Mom's name</span>
+                                <input type="text">
+                            </div>
+                            <div class="inputArea">
+                                <span class="aboveInp">Your Pap's name</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="inputColumnTwo">
+                            <div class="inputArea">
+                                <span class="essential" class="aboveInp">Age</span>
+                                <input name="age" class="neccessary"  type="text">
+                                <span class="fill" class="bottom">Need to fill</span>
+                            </div>
+                            <div class="inputArea">
+                                <span class="essential" class="aboveInp">About you</span>
+                                <input name="Personal Information" class="neccessary"  class="essential" type="text">
+                                <span class="fill" class="bottom">Need to fill</span>
+                            </div>
+                            <div class="inputArea">
+                                <span class="essential" class="aboveInp">What is JavaScript?</span>
+                                <input name="Javaqscript" class="neccessary"  type="text">
+                                <span class="fill" class="bottom">Need to fill</span>
+                            </div>
+                            <div class="inputArea">
+                                <span class="essential" class="aboveInp">What is HTML?</span>
+                                <input name="HTML" class="neccessary"  type="text">
+                                <span class="fill" class="bottom">Need to fill</span>
+                            </div>
+                            <div class="inputArea">
+                                <span class="essential" class="aboveInp">What is CSS?</span>
+                                <input name="CSS" class="neccessary"  type="text">
+                                <span class="fill" class="bottom">Need to fill</span>
+                            </div>
+                            <div class="inputArea">
+                                <span class="aboveInp">Your favourite car</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="save">Save changes</button>
+                </form>
+            </main>
+        </div>
+
+        <button class="start">Click on me</button>
+        <div class="theBall"></div>
+
+        <script src="./JS/script.js"></script>
+    </body>
+</html>
